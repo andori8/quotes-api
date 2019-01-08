@@ -4,8 +4,6 @@ class CreateQuotes < ActiveRecord::Migration[5.2]
       t.text :blurb
       t.text :contributor
       t.integer :category_id
-
-      t.timestamps
     end
   end
 end

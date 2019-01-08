@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       post 'add', to: 'quotes#add'
-      get 'show', to: 'quotes#show'
+      get 'show/:id', to: 'quotes#show'
+      get 'all', to: 'quotes#index'
     end
   end
 end
