@@ -14,6 +14,12 @@ class Api::V1::QuotesController < ApplicationController
     render json: @quotes
   end
 
+  def random
+    quotes = Quote.all
+    @quote = quotes.shuffle.first
+    render json: @quote
+  end
+
   private
   def quote_params
     params.require(:quote).permit(:id, :blurb, :contributor, :category_id)

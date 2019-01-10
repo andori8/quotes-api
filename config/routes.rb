@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       post 'add', to: 'quotes#add'
       get 'show/:id', to: 'quotes#show'
       get 'all', to: 'quotes#index'
+      get 'random', to: 'quotes#random'
     end
   end
 end
