@@ -8,4 +8,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/andori
 
 ## License
 
-The project is available as open source under the terms of the [MIT License]().
+The project is available as open source under the terms of the [MIT License](https://github.com/andori8/quotes-api/blob/master/LICENSE).
